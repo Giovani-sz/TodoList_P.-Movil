@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:todoap/blocObservar/blocObservar.dart';
 import 'package:todoap/layout/material_Home.dart';
 
+
 void main() {
-  Bloc.observer = MyBlocObserver();
+Bloc.observer = MyBlocObserver();
   runApp(MyApp());
 }
 
